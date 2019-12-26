@@ -13,3 +13,22 @@ export function transformRequest(data: any): any {
 
   return data
 }
+
+/**
+ * @description 响应数据data解析成 JSON
+ * @export
+ * @param {*} data
+ * @returns {*}
+ */
+export function transformResponse(data: any): any {
+  if (typeof data === 'string') {
+    try {
+      data = JSON.parse(data)
+    } catch (e) {
+      // TODO
+      // console.log(e)
+    }
+  }
+
+  return data
+}
