@@ -11,14 +11,16 @@ TS错误信息列表 | [项目配置--错误信息列表](https://www.tslang.cn/
 - [axios](https://www.npmjs.com/package/axios)
 - [Axios 中文说明](https://www.kancloud.cn/yunye/axios/234845)
 
-```bash
-# 需要发布到生产环境
-# npm install -save moduleName  将模块依赖写入dependencies
-# npm i -S
-npm i
 
-# 只用于开发环境，不用于生产环境
-# npm install -save-dev moduleName  将模块依赖写入devDependencies
+### 标签
 
-npm i -D
-```
+tag | chapter
+---|---
+1a | 利用 XMLHttpRequest 发送请求 
+2a | 处理请求 url 参数
+2b | 处理请求 body 数据
+2c | 处理请求 header
+2d | 获取响应数据
+2e | 处理响应 header
+2f | 处理响应 data
+3a | 错误处理
